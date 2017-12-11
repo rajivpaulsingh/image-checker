@@ -28,9 +28,9 @@ After that, check out the help for available options:
 ```shell
 blc --help
 ```
-A typical site-wide check might look like:
+A typical site-wide image check might look like:
 ```shell
-blc http://yoursite.com -ro
+blc --filter-level 1 http://abc.com -ro
 ```
 
 ### Programmatic API
